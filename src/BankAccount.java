@@ -86,8 +86,8 @@ public class BankAccount {
 //	print the BankAccount number. Notice the private method which is called in a public method!
 	public void UserAccountInfo(){
 		System.out.print("That's your Account Number: " + this.createBankAccountNumber());
-		System.out.print("\nThose are you're savings: " + this.savingsBalance);
-		System.out.print("\nThose are you're checkings: " + this.checkingBalance);
+		System.out.print("\nThose are your savings: " + this.savingsBalance);
+		System.out.print("\nThose are your checkings: " + this.checkingBalance);
 		System.out.print("\nMoney on your account after payed bill: " + this.checkingBalance);
 		System.out.print("\nHow many Accounts exist: "+ countAccount + "\n");
 	}
